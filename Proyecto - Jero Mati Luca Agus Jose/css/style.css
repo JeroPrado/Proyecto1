@@ -1,0 +1,65 @@
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+body{
+    display: flex;
+    background-color: #202020;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='79' height='79' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%231c1c1c' %3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg %3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    color: white;
+}
+.navbar-toggler-icon{
+    color: lightslategray;
+}
+main{
+    width: 100%;
+}
+.tp{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    background-color: #202020;
+    border: 1px solid white;
+    margin: 100px 0px 50px 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 80px;
+}
+.tituloimg1 {
+    display: flex;
+}
+.caja1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 100px;
+    border: 3px solid white;
+    margin: 0px 0px 80px 0px;
+}
+
+.grilla1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 0px 0px 50px 0px;
+}
+.c-grilla{
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.img-titulo{
+    margin: 56px 0px 0px 0px;
+    width: 100%;
+}
